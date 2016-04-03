@@ -1,7 +1,7 @@
 /**
  * @author [dbxiao]
  * @module [broadcast]
- * @data   [2016-01-12]
+ * @date   [2016-01-12]
  * @desc   [web广播组件，适用于模块化广播通信]
  */
 

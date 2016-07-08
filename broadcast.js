@@ -1,9 +1,9 @@
 /**
- * @author [dbxiao]
- * @mail   [dbxiao@foxmail.com]
- * @module [broadcast]
- * @date   [2016-01-12]
- * @desc   [web广播组件，适用于模块化广播通信]
+ * @author  [dbxiao]
+ * @mail    [dbxiao@foxmail.com]
+ * @module  [broadcast]
+ * @desc    [Web广播组件，适用于Web/H5模块化广播通信]
+ * @version [0.1.4]
  */
 
 (function(){
@@ -97,7 +97,7 @@
          * @param  {String}   name           [广播名称，必须在broadcast.definedChannel预定义]
          * @param  {Function} listenCallback [广播监听回调方法]
          * @return {none}                    [无返回]
-         * @desc                      [
+         * @desc [
          *     listen方法机制：
          *     1、查找广播频道时候存在，
          *     2、如果频道存在，将频道进行预定义，定义后，等待trigger触发

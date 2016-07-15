@@ -1,6 +1,5 @@
 /**
- * @author  [dbxiao]
- * @mail    [dbxiao@foxmail.com]
+ * @author  [dbxiao@foxmail.com]
  * @module  [broadcast]
  * @desc    [Web广播组件，适用于Web/H5模块化广播通信]
  * @version [0.1.4]

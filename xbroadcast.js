@@ -67,7 +67,11 @@ class BroadCast{
             for(i; i<_this._mListenChannel[name].length; i++){
                if(typeof _this._mListenChannel[name][i].listenCb == "function"){
                     _this._mListenChannel[name][i].listenCb(data);
+                    if(console.trace)
+                        console.trace();
                }else{
+                    if(console.trace)
+                        console.trace();
                     return false;
                }
             }
@@ -76,6 +80,9 @@ class BroadCast{
                 this._option.debug && console.info('[broadcast::trigger]:你Trigger的频道不存在,频道为：'+name);
             if(_this._mListenChannel[name] && _this._mListenChannel[name].length == 0)
                 this._option.debug && console.info('[broadcast::trigger]:你Trigger的频道无监听,频道为：'+name);
+
+            if(console.trace)
+                console.trace();
         }
     }
 
@@ -113,6 +120,9 @@ class BroadCast{
             typeof this._mListenChannel[name] == "undefined" ? initChannelArr() : pushChannelArr();
             console.info('[broadcast::listen]-你监听的频道 '+name+' 已动态创建');
         }
+
+        if(console.trace)
+            console.trace();
     }
 
     /**

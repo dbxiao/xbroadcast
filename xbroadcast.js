@@ -1,6 +1,4 @@
 /**
- * @author  [dbxiao@foxmail.com]
- * @desc    [React广播组件，适用于React/React Native模块广播通信]
  */
 
 class BroadCast{

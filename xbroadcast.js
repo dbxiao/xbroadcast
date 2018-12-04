@@ -1,5 +1,3 @@
-/**
- */
 
 class BroadCast{
     constructor(popos){
